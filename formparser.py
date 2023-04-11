@@ -14,19 +14,3 @@ class FormParser(list):
 
     def __str__(self):
         return f"Forms({len(self)}): {[str(form) for form in self]}"
-
-    # def __len__(self):
-    #     return len(self)
-    #
-    # def __iter__(self):
-    #     return iter(self)
-    #
-    # def __getitem__(self, index):
-    #     return self[index]
-    #
-    # def __setitem__(self, index, value):
-    #     self[index] = value
-    #
-    # def __delitem__(self, index):
-    #     del self[index]
-

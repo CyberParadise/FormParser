@@ -75,20 +75,3 @@ class Form(dict):
 
     def __str__(self):
         return f"Form(action='{self.action}', method='{self.method}', inputs='{self}')"
-
-    # def __len__(self):
-    #     return len(self)
-    #
-    # def __iter__(self):
-    #     return iter(self)
-    #
-    #
-    # def __getitem__(self, key):
-    #     return self[key]
-    #
-    # def __delitem__(self, name):
-    #     del self[name]
-
-
-
-
